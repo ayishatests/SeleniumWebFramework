@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a1fcdf0-df25-4ab5-87ca-bf77cdb3101a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/cucumber report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/medium-web-framework.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/apis/ApiRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/apis/CartApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/apis/SpecBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/constants/EndPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/constants/EnvType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/constants/MyConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/context/TestContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/customtype/CustomDataTableType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/customtype/CustomParameterType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/domainobjects/BillingDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/domainobjects/Cookies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/domainobjects/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/factory/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/hooks/MyHooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/pages/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/pages/CheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/pages/PageFactoryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/pages/StorePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/runners/FailedRunnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/runners/TestNGRunnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/steps/CartSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/steps/CheckoutSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/steps/CustomerSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/steps/StepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/steps/StoreSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/utils/ConfigLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/utils/PropertyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/bdd.automation/features/add_to_cart.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/bdd.automation/features/guest_place_an_order.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pdf-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/prod_config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/spark-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/stage_config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/ExtentReport 5-Jun-23 18-34-22/SparkReport/ExtentReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/ExtentReport 5-Jun-23 18-34-22/SparkReport/ExtentReport.pdf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/bdd/automation/pages/StorePage.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2QjKXy7WOdNIkolhnxI6YR4rtex" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/DELL/IntellijIdeaProjects/SeleniumWebFramework",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17791411",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\IntellijIdeaProjects\MediumWebFrameworkV11\src\test\java\bdd\automation" />
+      <recent name="C:\Users\DELL\IntellijIdeaProjects\MediumWebFrameworkV8" />
+      <recent name="C:\Users\DELL\IntellijIdeaProjects\MediumWebFrameworkV7\docs" />
+      <recent name="C:\Users\DELL\IntellijIdeaProjects\MediumWebFrameworkV6\src\test\resources" />
+      <recent name="C:\Users\DELL\IntellijIdeaProjects\MediumWebFrameworkV5\src\test\java\bdd\automation\runners" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\IntellijIdeaProjects\MediumWebFrameworkV8\src\test\java\bdd\automation" />
+      <recent name="C:\Users\DELL\IntellijIdeaProjects\MediumWebFrameworkV5\src\test\java\bdd\automation" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bdd.automation.domainobjects" />
+      <recent name="bdd.automation.utils" />
+      <recent name="bdd.automation.pages" />
+      <recent name="bdd.automation.steps" />
+      <recent name="bdd.automation.customtype" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn deploy" />
+      <command value="mvn compile" />
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.TestNGRunnerTest (3)">
+    <configuration name="Scenario: Add one quantity from Store" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/bdd.automation/features/add_to_cart.feature" />
+      <option name="GLUE" value="bdd.automation.steps bdd.automation.hooks bdd.automation.customtype" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MediumWebFrameworkV8" />
+      <option name="NAME_FILTER" value="^Add one quantity from Store$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add one quantity from Store$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add one quantity from Store" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: using default payment option" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/bdd.automation/features/guest_place_an_order.feature" />
+      <option name="GLUE" value="bdd.automation.steps bdd.automation.hooks bdd.automation.customtype" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MediumWebFrameworkV8" />
+      <option name="NAME_FILTER" value="^using default payment option$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^using default payment option$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: using default payment option" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGRunnerTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MediumWebFrameworkV8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bdd.automation.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bdd.automation.runners" />
+      <option name="MAIN_CLASS_NAME" value="bdd.automation.runners.TestNGRunnerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGRunnerTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MediumWebFrameworkV10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bdd.automation.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bdd.automation.runners" />
+      <option name="MAIN_CLASS_NAME" value="bdd.automation.runners.TestNGRunnerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGRunnerTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MediumWebFrameworkV11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bdd.automation.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bdd.automation.runners" />
+      <option name="MAIN_CLASS_NAME" value="bdd.automation.runners.TestNGRunnerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestNGRunnerTest (3)" />
+        <item itemvalue="TestNG.TestNGRunnerTest (2)" />
+        <item itemvalue="Cucumber Java.Scenario: using default payment option" />
+        <item itemvalue="Cucumber Java.Scenario: Add one quantity from Store" />
+        <item itemvalue="TestNG.TestNGRunnerTest (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a1fcdf0-df25-4ab5-87ca-bf77cdb3101a" name="Changes" comment="" />
+      <created>1685861595735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685861595735</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

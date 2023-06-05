@@ -1,0 +1,245 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>bdd.automation</groupId>
+  <artifactId>SeleniumWebFramework</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>SeleniumWebFramework</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source.version>17</maven.compiler.source.version>
+    <maven.compiler.target.version>17</maven.compiler.target.version>
+    <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
+    <maven-surefire-plugin.version>3.1.0</maven-surefire-plugin.version>
+    <maven-clean-plugin.version>3.2.0</maven-clean-plugin.version>
+    <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
+    <maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
+    <maven-install-plugin.version>3.1.1</maven-install-plugin.version>
+    <maven-deploy-plugin.version>3.1.1</maven-deploy-plugin.version>
+    <maven-site-plugin.version>4.0.0-M8</maven-site-plugin.version>
+    <maven-project-info-reports-plugin>3.4.3</maven-project-info-reports-plugin>
+    <selenium.java.version>4.9.1</selenium.java.version>
+    <webdrivermanager.version>5.3.3</webdrivermanager.version>
+    <cucumber.java.version>7.12.0</cucumber.java.version>
+    <cucumber.testng.version>7.12.0</cucumber.testng.version>
+    <cucumber-picocontainer.version>7.12.0</cucumber-picocontainer.version>
+    <extentreports.version>5.0.9</extentreports.version>
+    <extentreports-cucumber7-adapter.version>1.13.0</extentreports-cucumber7-adapter.version>
+    <cucumber-reporting.version>5.7.5</cucumber-reporting.version>
+    <commons-io.version>2.11.0</commons-io.version>
+    <slf4j-api.version>2.0.7</slf4j-api.version>
+    <slf4j-simple.version>2.0.7</slf4j-simple.version>
+    <lombok.version>1.18.28</lombok.version>
+    <rest-assured.version>5.3.0</rest-assured.version>
+  </properties>
+
+  <dependencies>
+    <!-- =========      SELENIUM DEPENDENCIES     ========= -->
+
+    <!-- **********   Selenium  ************ -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>${selenium.java.version}</version>
+    </dependency>
+
+    <!-- =========      DRIVER INITIALIZATION      ========= -->
+
+    <!-- **********   Web Driver Manager   ************ -->
+    <dependency>
+      <groupId>io.github.bonigarcia</groupId>
+      <artifactId>webdrivermanager</artifactId>
+      <version>${webdrivermanager.version}</version>
+    </dependency>
+
+    <!-- ========     CUCUMBER DEPENDENCIES      ========= -->
+
+    <!-- **********   Cucumber  ************ -->
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-java</artifactId>
+      <version>${cucumber.java.version}</version>
+    </dependency>
+    <!-- **********   Cucumber TestNG  ************  -->
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-testng</artifactId>
+      <version>${cucumber.testng.version}</version>
+    </dependency>
+    <!-- ******  Cucumber PicoContainer: share state between steps  ******  -->
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-picocontainer</artifactId>
+      <version>${cucumber-picocontainer.version}</version>
+    </dependency>
+
+
+    <!-- ============      REPORTS        ============== -->
+
+    <!-- **********   Extent reports  ************ -->
+    <dependency>
+      <groupId>com.aventstack</groupId>
+      <artifactId>extentreports</artifactId>
+      <version>${extentreports.version}</version>
+    </dependency>
+    <!-- **********   Cucumber7 Extent Reports  ************ -->
+    <dependency>
+      <groupId>tech.grasshopper</groupId>
+      <artifactId>extentreports-cucumber7-adapter</artifactId>
+      <version>${extentreports-cucumber7-adapter.version}</version>
+    </dependency>
+    <!-- **********  MasterThought Cucumber Report  ************ -->
+    <dependency>
+      <groupId>net.masterthought</groupId>
+      <artifactId>cucumber-reporting</artifactId>
+      <version>${cucumber-reporting.version}</version>
+    </dependency>
+
+    <!-- =========      FILES MANAGEMENT      ========== -->
+
+    <!-- **********  Apache common  ************ -->
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>${commons-io.version}</version>
+    </dependency>
+
+    <!-- ==========      LOGS        ============== -->
+
+    <!-- **********   slf4j api  ************ -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>${slf4j-api.version}</version>
+    </dependency>
+    <!-- **********   slf4j simple  ************ -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>${slf4j-simple.version}</version>
+    </dependency>
+
+    <!-- ====== AUTOMATIC RESOURCE MANAGEMENT   ====== -->
+
+    <!-- **********   lombok ************ -->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>${lombok.version}</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <!-- ====== Rest Assured: API Automation   ====== -->
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>${rest-assured.version}</version>
+    </dependency>
+
+  </dependencies>
+
+  <!-- ====== PLUGIN MANAGEMENT   ====== -->
+  <build>
+    <pluginManagement>
+      <plugins>
+        <!-- **********maven surefire:    ************ -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>${maven-surefire-plugin.version}</version>
+          <configuration>
+            <testFailureIgnore>true</testFailureIgnore>
+          </configuration>
+        </plugin>
+        <!-- ********** {maven clean:   ************ -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-clean-plugin</artifactId>
+          <version>${maven-clean-plugin.version}</version>
+          <configuration>
+            <failOnError>false</failOnError>
+          </configuration>
+        </plugin>
+        <!-- **********maven resources:     ************ -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>${maven-resources-plugin.version}</version>
+        </plugin>
+        <!-- **********maven compiler:     ************ -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>${maven-compiler-plugin.version}</version>
+          <configuration>
+            <source>${maven.compiler.source.version}</source>
+            <target>${maven.compiler.target.version}</target>
+          </configuration>
+        </plugin>
+        <!-- **********maven install:     ************ -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>${maven-jar-plugin.version}</version>
+        </plugin>
+        <!-- **********    ************ -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-install-plugin</artifactId>
+          <version>${maven-install-plugin.version}</version>
+        </plugin>
+        <!-- ********** maven deploy:    ************ -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>${maven-deploy-plugin.version}</version>
+        </plugin>
+        <!-- **********  maven site:   ************ -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>${maven-site-plugin.version}</version>
+        </plugin>
+        <!-- ********** maven project info-reports:    ************ -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-project-info-reports-plugin</artifactId>
+          <version>${maven-project-info-reports-plugin}</version>
+        </plugin>
+        <!-- Cucumber Masterthought Reports -->
+        <plugin>
+          <groupId>net.masterthought</groupId>
+          <artifactId>maven-cucumber-reporting</artifactId>
+          <version>${cucumber-reporting.version}</version>
+          <executions>
+            <execution>
+              <id>execution</id>
+              <phase>test</phase>
+              <goals>
+                <goal>generate</goal>
+              </goals>
+              <configuration>
+                <projectName>cucumberReporting</projectName>
+                <skip>false</skip>
+                <outputDirectory>${project.build.directory}</outputDirectory>
+                <inputDirectory>${project.build.directory}</inputDirectory>
+                <jsonFiles>
+                  <param>**/cucumber.json</param>
+                </jsonFiles>
+                <mergeFeaturesById>false</mergeFeaturesById>
+                <mergeFeaturesWithRetest>false</mergeFeaturesWithRetest>
+                <checkBuildResult>true</checkBuildResult>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+</project>
