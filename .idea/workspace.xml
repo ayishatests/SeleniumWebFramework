@@ -5,55 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a1fcdf0-df25-4ab5-87ca-bf77cdb3101a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/cucumber report.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/medium-web-framework.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/apis/ApiRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/apis/CartApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/apis/SpecBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/constants/EndPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/constants/EnvType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/constants/MyConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/context/TestContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/customtype/CustomDataTableType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/customtype/CustomParameterType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/domainobjects/BillingDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/domainobjects/Cookies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/domainobjects/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/factory/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/hooks/MyHooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/pages/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/pages/CheckoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/pages/PageFactoryManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/pages/StorePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/runners/FailedRunnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/runners/TestNGRunnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/steps/CartSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/steps/CheckoutSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/steps/CustomerSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/steps/StepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/steps/StoreSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/utils/ConfigLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/utils/CookieUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bdd/automation/utils/PropertyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/bdd.automation/features/add_to_cart.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/bdd.automation/features/guest_place_an_order.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pdf-config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/prod_config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/spark-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/stage_config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ExtentReport 5-Jun-23 18-34-22/SparkReport/ExtentReport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ExtentReport 5-Jun-23 18-34-22/SparkReport/ExtentReport.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/cucumber report.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/cucumber-report.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,19 +53,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/DELL/IntellijIdeaProjects/SeleniumWebFramework",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.17791411",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/IntellijIdeaProjects/SeleniumWebFramework&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17791411&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\IntellijIdeaProjects\MediumWebFrameworkV11\src\test\java\bdd\automation" />
