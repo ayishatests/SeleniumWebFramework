@@ -210,7 +210,7 @@ Ce framework exécute les tests en parallèle sur le navigateur ⚠️chrome, �
 ``` bash
 📌Cucumber Report ⬇️
 ```
-  [![cucumber_report](/docs/cucumber report.png "Cucumber Report")]()
+  [![cucumber report](/docs/cucumber report.png "Cucumber Report")]()
 
 ``` bash
 📌Extent Report
