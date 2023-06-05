@@ -208,7 +208,7 @@ Ce framework exécute les tests en parallèle sur le navigateur ⚠️chrome, �
 ```
 
 ``` bash
-📌Cucumber Report ➡️ Dans la consoleaprès exécution des tests.
+📌Cucumber Report ➡️ Dans la console après exécution des tests.
 ```
 
 ``` bash
